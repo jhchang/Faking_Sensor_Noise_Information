@@ -1,0 +1,5 @@
+2/23/2023:
+- Created github repo, blog text file, and readme
+- I will first need to spend time figuring out how to set up my project and what environment to work in as well as how to upload all my progress to git
+- I need to figure out is using Keras to preprocess my data
+- I will need to read more articles and look at more code about how PRNU extraction is conducted
