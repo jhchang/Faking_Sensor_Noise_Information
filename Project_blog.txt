@@ -1,3 +1,18 @@
+3/10/2023:
+- Notes to self in order to run this in VScode properly:
+- Follow steps from sources below
+Source:
+https://www.tensorflow.org/install/pip
+^ IMPORTANT: do a pip uninstall ipython ipykernel because conda forge doesn't
+install them correctly and do a "pip install ipykernel" otherwise the jupyter
+plugin for vscode will not work with the conda environment
+https://stackoverflow.com/questions/56438511/vscode-conda-activate-base-giving-commandnotfounderror
+^ search for python.conda after opening settings
+^ or add this to settings.json "terminal.integrated.defaultProfile.windows": "Git Bash"
+1. In VScode open folder called faking_sensor_noise_information
+2. Switch Terminal to Git Bash
+3. Type conda activate tf (tf is the name of the evironment for this project)
+
 2/23/2023:
 - Created github repo, blog text file, and readme
 - I will first need to spend time figuring out how to set up my project and what environment to work in as well as how to upload all my progress to git
